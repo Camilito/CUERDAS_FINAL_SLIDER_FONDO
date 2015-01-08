@@ -3,6 +3,78 @@ body{
     background-image: url("../images/fondo/FONDO.JPG");
 }
 
+
+section#HOLA div#contenedor{
+  display: none;
+}
+
+section#home{
+  margin-top: 50px;
+  text-align: center;
+}
+
+
+
+section#home h1{
+ font-family: 'Dancing Script', cursive;
+}
+
+section#home a{
+ font-family: 'Dancing Script', cursive;
+}
+
+
+div.col-sm-12 div#single-event{
+  
+  border-width:2px;
+  margin:28px 0px 7px 7px;  
+  padding:7px; 
+  background:rgba(0, 0, 0, 0.8);
+  color: #FFFFFF;
+  width:430px; 
+  height:360px;
+  position: relative;
+      } 
+
+div.col-sm-12 div#single-event{
+overflow: scroll;
+}
+
+div.col-sm-12 div#single-event div iframe{
+border: 3px solid green;
+width: 200px;
+float: left;
+}
+
+div.col-sm-12 div#single-event div p{
+border: 3px solid red;
+width: 160px;
+margin-left:20px;
+display: inline-block;
+
+
+
+}
+
+div.col-sm-12 div#single-event div{
+display: block;
+border: 3px solid yellow;
+height: 200px;
+
+}
+
+
+div.col-sm-12 div#single-event iframe{
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 960px){
+
 section#HOLA{
 
 background:rgba(0, 0, 0, 0.8);
@@ -10,17 +82,21 @@ background:rgba(0, 0, 0, 0.8);
   padding: 30px;
   position: relative;
   margin-top: 128px;
+  
 }
+
+
+
 
 div#contenedor div#MODIFICADA_BRAVA{
     position: relative;
     border: 1px solid black;
-    border-radius: 10px;
+    
     width: 800px;
     margin:0 auto;
     margin-top: 30px;
     min-height: 450px;
-    border-radius: 20px;
+    
     box-shadow:2px 2px 30px black,
                 -2px -2px 30px black;
      overflow: hidden;
@@ -35,7 +111,15 @@ div#contenedor div#MODIFICADA_BRAVA div {
  
 }
 div#contenedor div#MODIFICADA_BRAVA div img{
+   
     width: 800px;
     position: absolute;
    
+}
+
+
+section#HOLA div#contenedor{
+  display: block;
+}
+
 }
