@@ -1,0 +1,326 @@
+/*************************
+***** Videos CSS****
+**************************/
+div#CABECERA h1{
+border: 2px solid green;
+text-align: center;
+}
+
+
+
+
+
+div#CAJA_VIDEOS{
+border: 2px solid white;
+width: 100%;
+display: inline-block;
+
+
+}
+
+div#CAJA_VIDEOS div.videos p{
+	border:2px solid red;
+	text-align: center;
+	
+}
+
+div#CAJA_VIDEOS div.videos{
+	border:2px solid blue;
+	width: 100%;
+	
+	text-align: center;
+	
+}
+
+
+div#CAJA_VIDEOS div.videos iframe{
+	
+	width: 100%;
+	height: 260px;
+}
+
+
+
+
+/************caja videitos**************/
+
+div.col-sm-12 div#single-event {
+  
+ 
+  text-align: center;
+      }
+
+
+div.col-sm-12 div#single-event iframe{
+  
+  border-width:2px;
+  margin:28px 0px 7px 7px;  
+  padding:7px; 
+  background:rgba(0, 0, 0, 0.8);
+  color: #FFFFFF;
+  width:280px; 
+  height:240px;
+  
+      }
+
+/****************************************/
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 480px){
+
+div#CAJA_VIDEOS div.videos iframe{
+	
+	width: 80%;
+	height: 260px;
+}
+
+
+
+
+
+}
+
+
+
+
+@media screen and (min-width: 760px){
+
+div#contenidoP{
+	border: 3px solid brown;
+	
+	text-align: left;
+	position: relative;
+}
+
+
+div#CAJA_VIDEOS {
+	border: 2px solid white;
+	width: 600px;
+	text-align: center;
+}
+
+div#CAJA_VIDEOS div.videos{
+border: 2px solid blue;
+width: 570px;
+height: 430px;
+}
+
+
+
+div#CAJA_VIDEOS div.videos p.desc{
+width: 100%;
+ border:2px solid green;
+
+ 
+}
+
+
+
+div#CAJA_VIDEOS div.videos iframe{
+	border:2px solid yellow;
+	width: 570px;
+	height: 350px;
+}
+
+
+/********sCROLL*************/
+
+ div.col-sm-12 div#single-event{
+  
+  border-width:2px;
+   
+   margin-left: -10px;
+  background:rgba(0, 0, 0, 0.8);
+  color: #FFFFFF;
+  width:300px; 
+  height:700px;
+  position: relative;
+      } 
+
+div.col-sm-12 div#single-event{
+overflow: scroll;
+}
+
+
+
+div#CAJA_VIDEITOS{
+	border: 3px solid skyblue;
+	width: 314px;
+	height: 800px;
+	display: inline;
+	position: absolute;
+	top: 73px;
+	left: 600px;
+}
+
+
+/*************NOSE**************/
+div#NOSE{
+	border: 3px solid orange;
+	width: 600px;
+	height: 365px;
+	text-align: center;
+}
+
+
+
+
+
+}
+
+
+
+@media screen and (min-width: 960px){
+div#contenidoP{
+	border: 3px solid brown;
+	width: 960px;
+	margin-left: 1%;
+	text-align: left;
+	position: relative;
+}
+
+div#CAJA_VIDEITOS{
+	border: 3px solid skyblue;
+	margin-left: 6%; 
+	
+}
+
+
+
+
+}
+
+@media screen and (min-width: 1080px){
+	div#contenidoP{
+	border: 3px solid brown;
+	margin-left: 8%;
+}
+
+
+div#CAJA_VIDEOS div.videos{
+border: 2px solid blue;
+width: 596px;
+
+}
+
+div#CAJA_VIDEOS div.videos iframe{
+	border:2px solid yellow;
+	width: 595px;
+	height: 350px;
+}
+
+
+
+}
+
+@media screen and (min-width: 1270px){
+div#contenidoP{
+	border: 3px solid brown;
+	width: 1300px;
+	margin-left:  1%;
+margin-right: 20%;
+	text-align: left;
+	position: relative;
+	left: 10%;
+}
+div#CAJA_VIDEOS {
+
+	width: 854px;
+	
+}
+
+
+
+div#CAJA_VIDEOS div.videos{
+border: 2px solid blue;
+width: 850px;
+
+}
+
+
+
+div#CAJA_VIDEOS div.videos iframe{
+	border:2px solid yellow;
+	width: 850px;
+	height: 500px;
+}
+
+
+div#CAJA_VIDEITOS{
+	border: 3px solid skyblue;
+	margin-left: 22%; 
+	
+}
+
+/*************NOSE**************/
+div#NOSE{
+	border: 3px solid orange;
+	width: 850px;
+	height: 365px;
+	text-align: center;
+}
+
+
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 1370px){
+
+
+
+
+div#contenidoP{
+	border: 3px solid brown;
+	width: 1300px;
+	margin-left:  3%;
+margin-right: 20%;
+	text-align: left;
+	position: relative;
+	left: 10%;
+}
+
+
+
+div#CAJA_VIDEOS div.videos{
+border: 2px solid blue;
+width: 850px;
+
+}
+
+
+
+
+div#CAJA_VIDEOS div.videos iframe{
+	border:2px solid yellow;
+	width: 850px;
+	height: 500px;
+}
+
+
+div#CAJA_VIDEITOS{
+	border: 3px solid skyblue;
+	margin-left: 22%; 
+	
+}
+
+/*************NOSE**************/
+div#NOSE{
+	border: 3px solid orange;
+	width: 850px;
+	height: 365px;
+	text-align: center;
+}
+
+}

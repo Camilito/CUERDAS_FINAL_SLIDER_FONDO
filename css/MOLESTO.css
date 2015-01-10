@@ -16,7 +16,8 @@ section#home{
 
 
 section#home h1{
- font-family: 'Dancing Script', cursive;
+font-family: 'Pinyon Script', cursive;
+
 }
 
 section#home a{
@@ -63,10 +64,6 @@ height: 200px;
 
 }
 
-
-div.col-sm-12 div#single-event iframe{
-
-}
 
 
 
